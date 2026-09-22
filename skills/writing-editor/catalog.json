@@ -1,0 +1,13 @@
+{
+  "kind": "skill",
+  "slug": "writing-editor",
+  "name": "writing-editor",
+  "title": { "zh": "内容写作", "en": "Writing Editor" },
+  "description": { "zh": "围绕读者和表达目的构思、起草与修改内容，保留作者语气，并标明需要核实的事实。", "en": "Plan, draft and refine content for a defined audience, preserving the author's voice and flagging facts to verify." },
+  "category": "writing",
+  "tags": ["writing", "editing", "内容", "写作"],
+  "platforms": ["macos", "windows", "linux"],
+  "author": "Aino",
+  "version": "1.0.0",
+  "license": "MIT"
+}

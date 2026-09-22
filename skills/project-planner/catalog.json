@@ -1,0 +1,13 @@
+{
+  "kind": "skill",
+  "slug": "project-planner",
+  "name": "project-planner",
+  "title": { "zh": "项目规划", "en": "Project Planner" },
+  "description": { "zh": "从目标拆解里程碑、依赖与验收标准，明确范围和下一步，让项目有序推进。", "en": "Turn a goal into milestones, dependencies and acceptance criteria with a clear scope and next action." },
+  "category": "productivity",
+  "tags": ["planning", "project", "项目", "规划"],
+  "platforms": ["macos", "windows", "linux"],
+  "author": "Aino",
+  "version": "1.0.0",
+  "license": "MIT"
+}

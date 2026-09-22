@@ -1,0 +1,13 @@
+{
+  "kind": "skill",
+  "slug": "research-brief",
+  "name": "research-brief",
+  "title": { "zh": "资料研究", "en": "Research Brief" },
+  "description": { "zh": "围绕一个问题核对资料、比较来源，将发现、分歧与不确定性整理成可追溯的研究简报。", "en": "Investigate a question, compare sources, and turn findings and uncertainties into a traceable research brief." },
+  "category": "research",
+  "tags": ["research", "sources", "分析", "研究"],
+  "platforms": ["macos", "windows", "linux"],
+  "author": "Aino",
+  "version": "1.0.0",
+  "license": "MIT"
+}
