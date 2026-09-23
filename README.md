@@ -3,8 +3,11 @@
 Aino 官网技能与插件中心的内容仓库。这里维护源文件和生成的 JSON 目录；
 不包含 Aino 软件，不会自动安装或执行任何扩展。
 
-首批提供 3 个独立技能：资料研究（research-brief）、项目规划（project-planner）、
-内容写作（writing-editor）。插件目录暂为空，不发布占位插件。
+当前提供 3 个 Aino 自有技能：资料研究（research-brief）、项目规划（project-planner）、
+内容写作（writing-editor）。Aino 自有插件目录目前为空，不发布占位插件。
+
+Aino 官网还会实时聚合 Hermes 官方技能与插件目录。外部条目仍由各自上游维护，
+不会复制到本仓库；本仓库只存放 Aino 自有内容及其网站目录元数据。
 
 ## 目录结构
 
@@ -94,7 +97,8 @@ npm test
 
 https://raw.githubusercontent.com/OneWhitepaper/Aino-skill-plugins/main/catalog/catalog.json
 
-官网先展示随站点构建的快照，再尝试读取此地址。网络不可用时仍可浏览快照。
+官网先展示随站点构建的 Aino 快照，再尝试读取此地址，并同时读取 Hermes 官方目录。
+网络不可用时仍可浏览 Aino 快照。
 官网更新快照：`npm run catalog:sync`，然后重新 `npm run build`。
 
 ## 使用与边界
